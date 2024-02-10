@@ -1,0 +1,48 @@
+.all {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(42, 7, 75, 0.479);
+}
+
+input {
+    width: 300px;
+    overflow: scroll;
+    font-size: 40px;
+    padding: 15px 5px;
+}
+
+.one {
+    grid-column: 1/2;
+}
+
+.oneone {
+    grid-column: 2/3;
+}
+
+.two {
+    grid-column: 3/4;
+    text-align: right;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 0px auto;
+    border: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.05, 1.05);
+}
